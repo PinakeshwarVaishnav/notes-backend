@@ -7,7 +7,10 @@ export default [
   js.configs.recommended,
   {
 
-    ignores: ["dist/**"]
+    ignores: [
+      "dist/**",
+      'node_modules/'
+    ]
     ,
     plugins: {
       '@stylistic/js': stylisticJs
